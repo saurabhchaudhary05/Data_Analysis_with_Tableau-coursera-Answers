@@ -1,1 +1,25 @@
+Welcome to the beginning of your journey through the Tableau data analysis process. 
+In the Prepare Data stage, the journey begins with a crucial first step: data exploration. 
+This preliminary step is where you deep dive into the heart of your dataset and combine your curiosity and critical thinking.
+In order to better understand your data's architecture, it's important to take a look at the structure and metadata. The structure refers to the physical layout of your data — how it's organized in terms of rows and columns. Metadata, on the other hand, is the information about the data within your dataset, such as field names and data types. Together, they provide a comprehensive understanding of your dataset’s framework. Preparing the structure and metadata of a dataset generally involves three tasks: 
 
+Determining structure
+
+Renaming fields
+
+Editing field data types 
+
+Determining Structure
+Determining the number of columns and rows in your dataset gives you a valuable starting point for understanding its scope and scale. The number of columns and rows reveals the breadth and depth of your data. A substantial number of rows often reflects a rich, detailed collection of data, while a variety of columns can indicate a wide range of variables at your disposal. 
+
+The true strength of your analysis in Tableau comes from how well the data aligns with the questions you seek to answer. It’s important to examine each data field to ensure they all meaningfully contributes to your analytical objectives. This approach involves focusing on the relevance of the fields in your dataset, prioritizing those that directly tie into the questions you’re exploring.
+
+To explore the structure, you can begin by asking the following questions: 
+
+How many fields and rows are contained in the dataset?
+
+Is the data contained in these fields and rows relevant to my analytical goals?
+Renaming Fields
+In Tableau, renaming fields is essential for increasing readability. Some datasets have field names that are not as descriptive or clear as they could be. Unclear field names leave too much room for interpretation of what that field contains — although the field values are "clean," they lack specificity. Additionally, field names often show up in the visualization's end result and must be easy for the audience to understand.   
+
+When determining which fields should be renamed, you can ask the following question: Do the current field names accurately and clearly represent the data they contain? This question can help you identify any ambiguous or misleading field names that could hinder data analysis and interpretation.
