@@ -1,0 +1,27 @@
+What Are Trend Lines?
+Let's continue exploring analytics features available in Tableau by looking at trend lines. 
+
+In Tableau, you don't need to know the function behind the trend lines to create them. However, you do need to understand what a trend line is telling you. Trend lines simplify the overall pattern in your data into an easily interpretable visual element. Trend lines are created using statistical functions to help you confirm that trends exist. 
+
+There are five types of trend lines you can create in Tableau.
+
+Linear
+
+Logarithmic
+
+Exponential
+
+Polynomial
+
+Power
+
+You will only be exploring linear trend lines in this lesson. However, it is good to note that the others (all of which are non-linear) are options.
+
+A linear trend line is a straight line that best fits a set of data points in a way that represents a linear trend in the data. In order to use a linear trend line, it's important that the data points seem to generally follow a straight-line pattern. If the data points seem to have a more clearly curved pattern, then another type of trend line should be used.
+
+Trend Lines and Correlation
+In order to quantify the correlation of points on a scatter plot, you will need to determine the correlation coefficient, commonly denoted as 'r'. The correlation coefficient ranges from -1 to 1. A value close to 1 implies a strong positive correlation, while a value close to -1 indicates a strong negative correlation. A value around 0 suggests no correlation. You can find your correlation coefficient using one of the three values included in the tooltip, R-squared.
+
+If you know the R-squared value, you can easily calculate the absolute value of the correlation coefficient (r). To determine the value of your correlation coefficient, simply take the square root of the R-squared value. Keep in mind the direction of the trend line, as the correlation coefficient will have the same sign (positive or negative) as the slope of the trend line equation.
+
+In the example above, the R-squared value is about 0.47, meaning if you calculate the square root, you will find that the correlation coefficient is roughly 0.69. The slope of the trend line is positive (moving up and to the right), therefore r = 0.69. If the slope was negative (moving down and to the right) then the r would have been -0.69.
