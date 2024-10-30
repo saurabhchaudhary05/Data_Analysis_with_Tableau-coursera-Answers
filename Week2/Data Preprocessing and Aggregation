@@ -1,0 +1,24 @@
+Aggregation in Tableau means that the field is summarized using mathematical equations such as sum total, median, or average. 
+In other words, it means to "roll up" the data and present it in a summary form using statistical functions known as aggregate functions. Without aggregate functions, 
+you would not be able to create data visualizations.
+
+For example, imagine a pasture with many sheep, like the one depicted in the following images. If a farmer wanted to know how many sheep are in the pasture, 
+then the farmer would need to aggregate the field and get the total number of sheep. This reveals that the flock consists of 36 sheep.
+Aggregate functions are built-in Tableau functions that allow you to summarize fields of data by returning single values, 
+such as the minimum, average, or sum of a column. Tableau automatically aggregates any measure field added to a Tableau worksheet. 
+Why? Without aggregation, you would have no way to condense the numeric data and derive insights!
+
+Aggregate Functions in Calculated Fields
+It's important that you understand the difference between calculated fields that have been built with aggregate functions and calculated fields that have been built 
+with non-aggregate (e.g., string, date, and number) functions. Consider the following example to better understand why.
+
+What Are Table Calculations?
+Table calculations calculate data based on only what is in a present view after all other calculations have been processed, allowing you to further manipulate data after you have created the visualization. These types of calculations differ from calculated fields in that they are created and reside specifically within one visualization or view. Calculated fields, on the other hand, are actually created on the Tableau data source, which is why they create a new field on the data sidebar and can be used in multiple visualizations within a project. 
+
+There are two key benefits to using table calculations:
+
+Because you are only running calculations on the subset of data in the present visualization (table calculations do not run on any data that has been filtered out), they tend to be more efficient.
+
+Table calculations show the relationship between the values of a specific field.
+
+For example, say you owned a furniture store and you wanted to calculate the % of Total Sales for each product Sub-Category. Table calculations could quickly calculate the percentage for each product to show the relationship these products have to the total sales of the furniture store.
