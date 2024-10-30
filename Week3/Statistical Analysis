@@ -1,0 +1,88 @@
+Box Plots
+Box plots, also known as box-and-whisker plots, are visualizations that show a statistical summary of selected data. 
+The statistical summary is made up of five values: the data's minimum, maximum, median, first quartile, and third quartile. Box plots give a quick overview of the data within a field, which can be useful for explaining your analysis.
+
+Below is a box plot describing the Profit of each Sub-Category. Within the box plot, Profit is plotted onto the x-axis, and each 
+individual dot represents the Profit for the Sub-Category.
+
+Box Plot Design
+Box Plot Dos and Don'ts
+DO:
+
+Use the right data: Box plots are most effective for comparing the distributions of a continuous variable across different categories or groups. The primary variable you're plotting should be continuous, while the category being compared should be discrete. This will allow for a clear and meaningful comparison between the different groups.
+
+Include and explain outliers: Outliers are typically defined as data points that lie beyond the whiskers, which extend to 1.5 times the interquartile range (IQR) from the quartiles. Tableau automatically identifies outliers and places them outside of the box and whiskers. In the example below, the box plot displays the distribution of monthly profit at a restaurant. There is an outlier of $83K that represents the profit for August, during which time the restaurant was closed for renovations. Explaining such outliers provides essential context, revealing specific circumstances behind unusual data points and aiding in accurate interpretation.
+
+Key Takeaways
+What are distributions, and how can their shapes be described?
+
+A distribution shows all possible data values and the frequency of their occurrence, helping to understand how many times each data value occurs. The shape of a distribution in a histogram can be symmetrical, positively skewed (right skewed), or negatively skewed (left skewed), depending on the spread and balance of data values. In symmetrical distributions, the mean and median are equal and at the center. In positively skewed distributions, the median is less than the mean. In negatively skewed distributions, the median is greater than the mean.
+
+What are variance and standard deviation, and why is understanding the spread of data important?
+
+Variance measures how data points vary from the mean, while standard deviation is the measure of the distribution of statistical data, indicating how spread out the data is. To calculate variance, find the differences between each data point and the mean, square these differences, sum them up, and divide by the number of data points. Standard deviation is the square root of the variance. Analyzing the spread of data helps in understanding how data points vary from the mean, informing you about the distribution and variability of the data.
+
+What is a histogram, and how are values sorted in a histogram?
+
+A histogram is a statistical bar chart used to show the distribution of numerical data, plotting the frequency of occurrences within one numerical field. When a histogram is created, a dimension called a bin is created, which is used within the visual. Bins describe a consistent value range that data is sorted into to form groups. In histograms, values on the left side of a bin are inclusive, while values on the right are exclusive. The only exception is the last bin, where both left and right values are inclusive.
+
+What is a box plot, and what kind of questions can it help answer?
+
+A box plot, also known as a box-and-whisker plot, is a visualization that shows a statistical summary of data, including the minimum, maximum, median, first quartile, and third quartile values. Box plots can help answer questions about the distribution of data, such as waiting times at service counters, age differences in survey participants, and variability in monthly sales across products.
+
+Key Terms
+Discrete: A range of numbers that are countable or are not infinite.
+
+Continuous: A range of numbers that is infinitely small or exists unbroken in their range.
+
+Frequency distributions: The spread of data based on the count (frequency) of different groups in the data.
+
+Proportion distributions: The spread of data based on the proportion (or percentage) of the total number of rows in the data.
+
+Symmetrical (balanced) distribution: A distribution of data that has a mean equal to its median and the same shape on either side of its center.
+
+Right-skewed (positively skewed) distribution: A distribution of data that has a mean larger than the median.
+
+Left-skewed (negatively skewed) distribution: A distribution of data that has a mean smaller than the median.
+
+Normal distribution: A distribution of data that has a shape like a bell. It is symmetric (the mean equals the median).
+
+Mean:  The sum of a group of numbers divided by their count.
+
+Variance: The spread of the data. It is calculated by finding the sum of the squared distance from the mean of all data points divided by the number of data points.
+
+Standard deviation: The square root of the variance.
+
+Confidence interval: The interval contains a population mean for a certain proportion of the time when performing repeated sampling.
+
+Hypothesis test: A statistical test to determine if there is enough evidence in sample data to draw conclusions about a population.
+
+Null hypothesis: The hypothesis that there is no difference between the population estimates being compared.
+
+Alternative hypothesis: The hypothesis that there is a difference between the population estimates being compared.
+
+P-value: The likelihood that the null hypothesis is true from 0 to 1. This value determines whether we reject the null hypothesis or fail to reject the null hypothesis.
+
+Histogram: A chart that groups continuous values into different groups (known as bins) to show the distribution of numerical data.
+
+Bin: An interval that data falls into across its entire range of values.
+
+Box plot (or box-and-whisker plot): A visualizations that show a statistical summary of selected data — the five measures are the minimum and maximum, as well as the 25th, 50th (the median), 75th percentiles.
+
+Minimum: The smallest value within the dataset that falls within an acceptable range, typically within 1.5 times the interquartile range (IQR) below the first quartile (Q1).
+
+Maximum: The largest value within the dataset that falls within an acceptable range, typically within 1.5 times the interquartile range (IQR) above the third quartile (Q3).
+
+Median: The middle value within your dataset. The median is also known as the second quartile. It separates the first 50% of your data from the second 50%.
+
+Quartiles: Numbers that divide the values in your dataset, when put into a list from least to greatest, into four equal quarters.
+
+First quartile (Q1): The value that separates the first 25% of your dataset from the next 25%. The first quartile can be found by finding the middle value between your minimum and median values.
+
+Third quartile (Q3): The value that separates the last 25% of your dataset from the second-to-last quarter. The third quartile can be found by finding the middle value between the median and the maximum values.
+
+Interquartile range (IQR): The range composed of the middle 50% of your dataset. This include any values that fall between Q1 and Q3.
+
+Outliers: Any values that fall outside of the interquartile range.
+
+Whiskers: The lines that typically extend from each quartile to the minimum and maximum values within a set range, which is often 1.5 times the interquartile range (IQR) from the first and third quartiles. 
